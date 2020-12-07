@@ -32,6 +32,7 @@
 					$_SESSION['department'] = $data->department;
 					$_SESSION['faculty'] = $data->faculty;
 					$_SESSION['year'] = $data->year;
+					$_SESSION['profilePhoto'] = $data->profilePhoto;
 
 				}
 				if ($_SESSION['user'] == "Lecturer") {
@@ -43,6 +44,7 @@
 					$_SESSION['userID'] = $data->lecturerID;
 
 					$_SESSION['name'] = $data->firstName . " " . $data->lastName;
+					$_SESSION['profilePhoto'] = $data->profilePhoto;
 				}
 				session_write_close();
 				return $_SESSION['user'];

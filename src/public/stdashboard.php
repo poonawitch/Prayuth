@@ -330,8 +330,11 @@
         var startPx = ((startTime[0] - 8)*100) + startTime[1]*(5/3);
         var widthPx = ((endTime[0] - 8)*100) + endTime[1]*(5/3) - startPx;
         var numDay = dayToNum(data[i]["classDay"]);
+        var room_html = "";
+        if (widthPx > 150)
+              room_html = '<div class="timetableCourseRoomgr">'+ " " +data[i]["room"] +'</div>';
         
-        document.getElementById('timeTable').innerHTML += '<div class="timetableCourse" style="background-color: #BBBBBB; width: '+ widthPx +'px; left: '+ startPx +'px; top: '+ 45*numDay +'px;"><div class="timetableCourseIDgr">'+ data[i]["courseID"] +'</div><div class="timetableCourseRoomgr">'+ " " +data[i]["room"] +'</div></div>';
+        document.getElementById('timeTable').innerHTML += '<div class="timetableCourse" style="background-color: #BBBBBB; width: '+ widthPx +'px; left: '+ startPx +'px; top: '+ 45*numDay +'px;"><div class="timetableCourseIDgr">'+ data[i]["courseID"] +'</div>'+ room_html +'</div>';
 
         if (prev_courseID != data[i]["courseID"]) {
           document.getElementById('table').innerHTML += '<tr id="cctabletr"><td id="cctabletd"><center>'+ data[i]["courseID"] +'</center></td><td id="cctabletdlecturer">'+ data[i]["courseName"] +'</td><td id="cctabletd"><center>'+ data[i]["section"] +'</center></td><td id="cctabletd"><center>'+ data[i]["credit"] +'</center></td><td id="cctabletdlecturer">'+ data[i]["firstName"] +" "+ data[i]["lastName"] +'</td></tr>'
@@ -341,9 +344,8 @@
 
       }
     }
-  })
-
-
+  }).then(() => 
+  {
 
   $.ajax({
     url : "./ajax/db_followingCourse.php",
@@ -360,7 +362,36 @@
           var timeElement;
           var heart;
           var boxColor;
+          var bar_color;
+          const time_table_obj = document.getElementById('timeTable');
           for (const i in data) {
+            var startTime = data[i]["classStart"].split(":");
+            var endTime = data[i]["classEnd"].split(":");
+            var startPx = ((startTime[0] - 8)*100) + startTime[1]*(5/3);
+            var widthPx = ((endTime[0] - 8)*100) + endTime[1]*(5/3) - startPx;
+            var numDay = dayToNum(data[i]["classDay"]);
+            var room_html = "";
+            boxColor = data[i]["stuFollow"] / data[i]["capacity"];
+            if (boxColor >= 1.0)
+              bar_color = '#C61038';
+            else if (boxColor >= 0.5) 
+              bar_color = '#F09B27';
+            else
+              bar_color = '#1A9776';
+
+            if (widthPx > 150)
+              room_html = '<div class="timetableCourseRoomgr">'+ " " +data[i]["room"] +'</div>';
+
+            const time_bar = document.createElement('div');
+            time_bar.setAttribute('class','timetableCourse');
+            time_bar.setAttribute('style','background-color: '+ bar_color +'; opacity: 0.7; width: '+ widthPx +'px; left: '+ startPx +'px; top: '+ 45*numDay +'px;');
+            time_bar.innerHTML = '<div class="timetableCourseIDgr">'+ data[i]["courseID"] +'</div>'+ room_html;
+            time_bar.onclick = function(e) {
+              window.location = './courseInfo.php?openCourseID='+data[i]['openCourseID']+"&section="+data[i]['section'];
+            }
+            time_table_obj.appendChild(time_bar);
+
+
             if (prev_openCourseID == data[i]['openCourseID'] && prev_section == data[i]['section']) {
               data[i]['classDay'] = day3letter(data[i]['classDay']);
               timeElement.innerHTML += "<h4 style='margin-top: -2%;'>" + data[i]['classType'] + " - " + data[i]['classDay'] + " " + ampm(data[i]['classStart']) + " - " + ampm(data[i]['classEnd']) + "</h4>";
@@ -375,17 +406,6 @@
                 box.setAttribute('style','background-color: #C61038;');
               else if (boxColor >= 0.5) 
                 box.setAttribute('style','background-color: #F09B27;');
-
-
-              var startTime = data[i]["classStart"].split(":");
-              var endTime = data[i]["classEnd"].split(":");
-              var startPx = ((startTime[0] - 8)*100) + startTime[1]*(5/3);
-              var widthPx = ((endTime[0] - 8)*100) + endTime[1]*(5/3) - startPx;
-              var numDay = dayToNum(data[i]["classDay"]);
-              
-              document.getElementById('timeTable').innerHTML += '<div class="timetableCourse" style="background-color: #EB9E33; opacity: 0.7; width: '+ widthPx +'px; left: '+ startPx +'px; top: '+ 45*numDay +'px;"><div class="timetableCourseIDgr">'+ data[i]["courseID"] +'</div><div class="timetableCourseRoomgr">'+ " " +data[i]["room"] +'</div></div>';
-
-
 
 
               if (data[i]['isFollow'] == 0) 
@@ -557,6 +577,7 @@
         }
       }
     })
+  })
 function ampm(string) {
   var time = string.split(":");
   var hours = parseInt(time[0]);

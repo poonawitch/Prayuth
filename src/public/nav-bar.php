@@ -79,13 +79,13 @@ session_start();
 				</div>
 				<ul class="navbar-nav">
 					<li class="nav-item dot btninnav" style="height: 65px; width: 65px; border-radius: 50%; margin-right: 6px">
-						<a class="nav-link" href="../welcome/?test=10"><img src="img/ic_message.png" style="width: 100%"></a>
+						<a class="nav-link" href="chat.php"><img src="img/ic_message.png" style="width: 100%"></a>
 					</li>
 				</ul>
 				<form class="nav-item dot lgtbtn" style="height: 65px; width: 65px; border-radius: 50%; margin-right: 20px">
 					<a href="./logout.php" style="position: relative; text-decoration: none;">
 						<div class="dot lgtbtn" style="height: 65px; width: 65px; border-radius: 50%; position: relative; z-index: 3; text-align: center; text-decoration: none; padding-top: 12px;">Log<br>Out</div>
-						<img src="img/profile.png" style="width: 100%; position: relative; top: -65px;">
+						<img src="<?php echo $_SESSION["profilePhoto"]?>" style="border-radius: 50%; width: 100%; position: relative; top: -65px;">
 					</a>
 				</form>
 			</div>
@@ -129,13 +129,13 @@ session_start();
 				</div>
 				<ul class="navbar-nav">
 					<li class="nav-item dot btninnav" style="height: 65px; width: 65px; border-radius: 50%; margin-right: 6px">
-						<a class="nav-link" href="../welcome/?test=10"><img src="img/ic_message.png" style="width: 100%"></a>
+						<a class="nav-link" href="chat.php"><img src="img/ic_message.png" style="width: 100%"></a>
 					</li>
 				</ul>
 				<form class="nav-item dot lgtbtn" style="height: 65px; width: 65px; border-radius: 50%; margin-right: 20px">
 					<a href="./logout.php" style="position: relative; text-decoration: none;">
 						<div class="dot lgtbtn" style="height: 65px; width: 65px; border-radius: 50%; position: relative; z-index: 3; text-align: center; text-decoration: none; padding-top: 12px;">Log<br>Out</div>
-						<img src="img/profile.png" style="width: 100%; position: relative; top: -65px;">
+						<img src="<?php echo $_SESSION["profilePhoto"]?>" style="border-radius: 50%; width: 100%; position: relative; top: -65px;">
 					</a>
 				</form>
 			</div>

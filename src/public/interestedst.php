@@ -46,3 +46,50 @@ include 'nav-bar.php';
           </table> 
 </div>
 <div style="height: 50px;"></div>
+
+<script>
+  $.ajax({
+    url : "./ajax/db_interrestedSt.php",
+    type: "post",
+    data :{
+      openCourseID : '<?php echo $_GET["openCourseID"];?>'
+    },
+    success: function(resp){
+      var data = JSON.parse(resp);
+      console.log(data);
+      const table = document.getElementById('table');
+      for (const i in data) {
+        const row = document.createElement('tr');
+
+          const column_num = document.createElement('td');
+          column_num.setAttribute('style',' width: 10%');
+          column_num.innerHTML = '<center>'+(Number(i)+1)+'</center>';
+          row.appendChild(column_num);
+
+          const column_studentID = document.createElement('td');
+          column_studentID.setAttribute('style',' width: 20%');
+          column_studentID.innerHTML = '<center>'+ data[i]["studentID"] +'</center>';
+          row.appendChild(column_studentID);
+        
+          const column_name = document.createElement('td');
+          column_name.setAttribute('style',' width: 35%');
+          column_name.innerHTML = data[i]["firstName"] +' '+ data[i]["lastName"];
+          row.appendChild(column_name);
+
+          const column_department = document.createElement('td');
+          column_department.setAttribute('style',' width: 20%');
+          column_department.innerHTML = data[i]["department"];
+          row.appendChild(column_department);
+
+          const column_section = document.createElement('td');
+          column_section.setAttribute('style',' width: 20%');
+          column_section.innerHTML = '<center>'+ data[i]["section"] +'</center>';
+          row.appendChild(column_section);
+
+        table.appendChild(row);
+      }
+    }
+  })
+
+
+</script>
