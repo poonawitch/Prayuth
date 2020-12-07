@@ -7,7 +7,8 @@ Pre-Register at your University Project
 | Requirements  | Spec            | 
 | ------------- |:---------------:| 
 | CPU           | 2 vCPUs         |
-| RAM           | 4 GBs           |  
+| RAM           | 4 GBs           | 
+| Storage       | 10 GBs          |
 | OS            | Ubuntu 20.04 LTS|  
 
 2. Install Docker
