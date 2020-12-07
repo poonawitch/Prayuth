@@ -43,6 +43,10 @@ docker-compose up -d
 
 http://localhost:8888 
 
+# Source Code
+
+อยู่ใน folder src/public
+
 
 # Username
 
