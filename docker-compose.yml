@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+    site:
+      build:
+       context: .
+       dockerfile: nginx.dockerfile
+      container_name: nginx
+      restart: always
+      ports:
+       - "8888:80"
+      volumes:
+       - ./src:/var/www/html:delegated
+      depends_on:
+       - php
+
+    php:
+     build:
+       context: .
+       dockerfile: php.dockerfile
+     container_name: php
+     restart: always
+     volumes:
+       - ./src:/var/www/html:delegated
+     expose:
+       - "9000"
+  
