@@ -20,7 +20,7 @@ apt install -y docker.io && docker-compose
 3. Git Clone
 
 ```bash
-https://github.com/poonawitch/Prayuth.git
+git clone https://github.com/poonawitch/Prayuth.git
 ```
 
 4. Go to Prayuth folder
