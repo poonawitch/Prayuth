@@ -50,13 +50,13 @@ http://localhost:8888
 
 Username : 61070501041
 
-password : test 
+Password : test 
 
 `Teacher`
 
 Username : 2221003
 
-password : test
+Password : test
 
 # Group Members
 
