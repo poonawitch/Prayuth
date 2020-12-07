@@ -63,7 +63,7 @@ password : test
 
 | Student ID    | Name               | 
 | ------------- |:------------------:| 
-| 61070501032   | BURIS   |
+| 61070501032   | BURIS PUNNAHITANANDA  |
 | 61070501037   | PUNNAWICH SILPKITCHAROEN |
 | 61070501041   | POOMPHOB SUWANNAPICHAT   |
 | 61070501043   | YODSAKORN NUNPAN       |
