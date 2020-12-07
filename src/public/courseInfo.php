@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
+	    <link rel="icon" href="img/u.png">
+
   <style>
     .Login_BG {
       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+65 */

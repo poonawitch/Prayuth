@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="icon" href="img/u.png">
+
   <style>
     body {
       font-family: "Montserrat", sans-serif;
