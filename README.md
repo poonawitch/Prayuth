@@ -37,9 +37,8 @@ docker-compose up -d
 
 6.Open your browser
 
-```bash
 http://localhost:8888 
-```
+
 
 # Username
 
