@@ -1,7 +1,8 @@
 # Prayuth
 Pre-Register at your University Project
 
-kmutt.prayuth.space
+https://kmutt.prayuth.space
+
 
 # How to Deploy
 1. Create Instance in GCP
