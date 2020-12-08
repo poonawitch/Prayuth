@@ -13,7 +13,21 @@
       while ($data = $stmt->fetch(PDO::FETCH_ASSOC)) {
         $res[] = $data;
       }
+      $res_all[] = $res;
 
-      echo json_encode($res);
+
+
+      $stmt = $db->prepare('SELECT * FROM sectionTime WHERE openCourseID = :openCourseID');
+      $stmt->bindParam("openCourseID", $_POST["openCourseID"],PDO::PARAM_STR);
+
+
+      $stmt->execute();
+
+      while ($data = $stmt->fetch(PDO::FETCH_ASSOC)) {
+        $res2[] = $data;
+      }
+      $res_all[] = $res2;
+      
+      echo json_encode($res_all);
 
     ?>
