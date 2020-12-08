@@ -1,0 +1,24 @@
+version: '3.2'
+
+services:
+    Phob_DB:
+      container_name: PHOB_DATABASE
+      restart: always
+      image: mysql:8.0
+      environment:
+       MYSQL_ROOT_PASSWORD: 'cpe327db' 
+      volumes:
+       - ./mysql-data:/var/lib/mysql
+      ports:
+       - "3306:3306"
+
+    Phob_PMA:
+      depends_on:
+       - Phob_DB
+      image: phpmyadmin/phpmyadmin
+      container_name: PHOB_PMA
+      restart: always
+      ports:
+       - '8000:80'
+      environment:
+        PMA_HOST: Phob_DB
