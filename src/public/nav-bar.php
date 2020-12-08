@@ -74,11 +74,11 @@ session_start();
 				<div class="navbar-nav ml-auto mt-2 mt-lg-0">
 					<form class="form-inline" method="post" style="background-color: #ffffff; border-radius: 20px; margin-right: 12px;">
 						<i><img src="img/magnifier.png" style="width: 60%; margin-left: 7px;"></i>
-						<input type="text" class="form-control" name="search" placeholder="Search" style="border-radius: 20px; border: none; width: 500px">
+						<input type="text" class="form-control" name="search" placeholder="Search (Dummy)" style="border-radius: 20px; border: none; width: 500px">
 					</form>
 				</div>
 				<ul class="navbar-nav">
-					<li class="nav-item dot btninnav" style="height: 65px; width: 65px; border-radius: 50%; margin-right: 6px">
+					<li class="nav-item dot btninnav" id="chatnav" style="height: 65px; width: 65px; border-radius: 50%; margin-right: 6px">
 						<a class="nav-link" href="chat.php"><img src="img/ic_message.png" style="width: 100%"></a>
 					</li>
 				</ul>
@@ -104,6 +104,13 @@ session_start();
 				document.getElementById("enrolcourse").style.position = "relative";
 				document.getElementById("enrolcourse").innerHTML += "<div class='btninnav' style='background-color: #ffffff; height: 8px; width: 65px; bottom: 0;'></div>";
 			}
+			else if (window.location.href.indexOf("chat") > -1) {
+				document.getElementById("chatnav").style.borderRadius = "0";
+				document.getElementById("chatnav").style.borderTopLeftRadius = "50%";
+				document.getElementById("chatnav").style.borderTopRightRadius = "50%";
+				document.getElementById("chatnav").style.position = "relative";
+				document.getElementById("chatnav").innerHTML += "<div class='btninnav' style='background-color: #ffffff; height: 8px; width: 65px; bottom: 0;'></div>";
+			}
 		</script>
 	<?php }
 	else if ( $_SESSION["user"] == 'Lecturer' ){
@@ -124,7 +131,7 @@ session_start();
 				<div class="navbar-nav ml-auto mt-2 mt-lg-0">
 					<form class="form-inline" method="post" style="background-color: #ffffff; border-radius: 20px; margin-right: 12px;">
 						<i><img src="img/magnifier.png" style="width: 60%; margin-left: 7px;"></i>
-						<input type="text" class="form-control" name="search" placeholder="Search" style="border-radius: 20px; border: none; width: 500px">
+						<input type="text" class="form-control" name="search" placeholder="Search (Dummy)" style="border-radius: 20px; border: none; width: 500px">
 					</form>
 				</div>
 				<ul class="navbar-nav">

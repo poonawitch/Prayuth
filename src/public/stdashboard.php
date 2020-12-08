@@ -235,7 +235,7 @@
       </div>
       <div class="col-4">
        <div class="dashbox" style="height: 675px; padding-left: 0px; position: relative; padding-right: 0px;">
-         <h2 class="dashtitle" style="margin-left: 30px;">CREDITS</h2>
+         <h2 class="dashtitle" style="margin-left: 30px;">CREDITS (DUMMY)</h2>
          <div style="width: 70%; height: 70px; border-top-left-radius: 35px; border-bottom-left-radius: 35px; background-color: #1A9776; position: relative; float: right; margin-top: 10px;">
            <h4 style="position: relative; left: 31px; top: 10px;">98 / 127<br>credits completed</h4>
          </div>
