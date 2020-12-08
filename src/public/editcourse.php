@@ -265,211 +265,15 @@ include 'nav-bar.php';
                         <div class="col-7" style="position: absolute; top: 110px; right: 0px;">
                             <div class="col-11" style="height: 530px; background-color: rgba(255, 255, 255, 0.5); border-radius: 30px; position: absolute; top: 50px; left: 30px;">
                                 <h1 style="position: absolute; top: 15px; left: 20px;">Sections</h1>
-                                <div style="position: relative; top: 60px; height: 455px; width: 646px; border-radius: 15px; overflow-y: scroll; overflow-x: hidden;">
-                                    <div id="big_box_section" class="grid-container" style="width: 646px; border-radius: 15px; position: relative; overflow-y: hidden; overflow-x: hidden; float: left;">
-                                        <div>
-                                            <div style="background-color: #233975; height: 30px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; position: relative; top: 5px; left: 5px; width: 100px; color: #ffffff; font-size: 20px; font-weight: 600; padding-left: 15px;">SEC 1</div>
-                                            <div style="background-color: #233975; height: 30px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; position: relative; top: -25px; left: 107px; width: 170px; color: #ffffff; font-size: 15px; font-weight: 400; padding-left: 8px; padding-top: 4px;">Capacity :
-                                                <div style="background-color: #233975; border-radius: 12px; height: 24px; width: 80px; position: relative; top: -23px; right: -79px; text-align: left; color: #ffffff; padding-left: 10px; border: 2px solid #ffffff">50</div>
-                                            </div>
-                                            <!-- minus button -->
-                                            <div class="row" style="position: relative; top: -10px; left: 15px;">
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">Class Type: </div>
-                                                    <div class="displayinsecbox">Lecture</div>
-                                                </div>
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">On every </div>
-                                                    <div class="displayinsecbox monday">Monday</div>
-                                                </div>
-                                                <div class="col-11 linesecbox" style="overflow: hidden;">
-                                                    <div class="textinsecbox">From </div>
-                                                    <div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">08:30 AM</div>
-                                                    <div class="textinsecbox" style="margin-left: 10px;">to </div>
-                                                    <div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">12:20 PM</div>
-                                                </div>
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">At </div>
-                                                    <div class="displayinsecbox" style="width: 100px;">CPE1115</div>
-                                                </div>
-                                                <div style="height: 3px; width: 287px; margin-left: 15px; margin-top: 10px; background-color: #ffffff; border-radius: 1.5px"></div>
-                                            </div>
-                                            <div class="row" style="position: relative; top: 10px; left: 15px;">
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">Class Type: </div>
-                                                    <div class="displayinsecbox">Lecture</div>
-                                                </div>
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">On every </div>
-                                                    <div class="displayinsecbox monday">Monday</div>
-                                                </div>
-                                                <div class="col-11 linesecbox" style="overflow: hidden;">
-                                                    <div class="textinsecbox">From </div>
-                                                    <div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">08:30 AM</div>
-                                                    <div class="textinsecbox" style="margin-left: 10px;">to </div>
-                                                    <div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">12:20 PM</div>
-                                                </div>
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">At </div>
-                                                    <div class="displayinsecbox" style="width: 100px;">CPE1115</div>
-                                                </div>
-                                            </div>
-                                        </div>
 
+                                <div style="position: absolute; top: 60px; height: 455px; width: 646px; border-radius: 15px; overflow-y: scroll; overflow-x: hidden;">
+                                    <div id="big_box_section" class="grid-container" style="width: 100%">
 
-                                        <div>
-                                            <div style="background-color: #DB7600; height: 30px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; position: relative; top: 5px; left: 5px; width: 100px; color: #ffffff; font-size: 20px; font-weight: 600; padding-left: 15px;">SEC 10</div>
-                                            <div style="background-color: #233975; height: 30px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; position: relative; top: -25px; left: 107px; width: 170px; color: #ffffff; font-size: 15px; font-weight: 400; padding-left: 8px; padding-top: 4px;">Capacity :
-                                                <input style="border-radius: 12px; height: 24px; width: 80px; position: relative; top: -1px; right: -3px; text-align: left; color: #000000; padding-left: 10px; border: none;">
-                                            </div>
-                                            <!-- minus button -->
-                                            <button class="dot" style="height: 30px; width: 30px; border-radius: 50%; background-color: rgba(255, 255, 255, 0.5); position: relative; left: 282px; top: -55px; border: none;">
-                                                <div style="height: 5px; width: 20px; background-color: #585858; border-radius: 3px; position: relative; left: -1px; top: 1px;"></div>
-                                            </button>
-                                            <div class="row" style="position: relative; top: -40px; left: 15px;">
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">Class Type: </div>
-
-                                                    <div class="custom-select">
-                                                      <select id="classType" name="classType" class="inputinsecbox">
-                                                        <option value="Lecture">Lecture</option>
-                                                        <option value="Lab">Lab</option>
-                                                        <option value="Lecture & Lab">Lecture & Lab</option>
-                                                    </select>  
-                                                </div>
-                                            </div>
-                                            <div class="col-11 linesecbox">
-                                                <div class="textinsecbox">On every </div>
-                                                <div class="custom-select">
-                                                    <select id="days" name="day" class="inputinsecbox">
-                                                        <option value="Monday">Monday</option>
-                                                        <option value="Tuesday">Tuesday</option>
-                                                        <option value="Wednesday">Wednesday</option>
-                                                        <option value="Thursday">Thursday</option>
-                                                        <option value="Friday">Friday</option>
-                                                        <option value="Saturday">Saturday</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-11 linesecbox" style="overflow: hidden; height: 25px;">
-                                                <div class="textinsecbox">From </div>
-                                                <b-form-timepicker id="timepicker-placeholder" locale="th"></b-form-timepicker>
-                                                <!-- <input class="inputinsecbox timepicker" width="90" style="float: left; height: 24px; padding-right: 0px;"> -->
-                                                <div class="textinsecbox" style="margin-left: 10px; position: relative; top: -24px; left: 145px;">to </div>
-                                                <div style="position: relative; top: -24px; left: 145px;">
-                                                    <!-- <input class="inputinsecbox timepicker" width="90" style="float: left; height: 24px;"> -->
-
-                                                </div>
-                                            </div>
-                                            <div class="col-11 linesecbox">
-                                                <div class="textinsecbox">At </div>
-                                                <input class="inputinsecbox">
-                                            </div>
-                                            <div style="height: 3px; width: 287px; margin-left: 15px; margin-top: 10px; background-color: #ffffff; border-radius: 1.5px"></div>
-                                        </div>
-                                        <button style="border: none; background-color: rgba(255, 255, 255, 0); width: 30px; height: 30px; position: relative; left: 279px; top: -37px;">
-                                            <img src="img/greycross.png" style="width: 15px; height: 15px; position: relative; top: 0px; left: 0px;">
+                                    <div id="last_obj_section">
+                                        <button class="dot newsecbtn" onclick="create_new_section(0,0,0)" style="height: 50px; width: 50px; border-radius: 50%; position: relative; left: 133.5px; top: 135px; border: none;">
+                                            <img src="img/plus.png" style="width: 30px; height: 30px; position: relative; top: 0px; left: 0px;">
                                         </button>
-                                        <div class="row" style="position: relative; top: 0px; left: 15px;">
-                                            <div class="row" style="position: relative; top: -40px; left: 15px;">
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">Class Type: </div>
-                                                    <div class="custom-select">
-                                                      <select id="classType" name="classType" class="inputinsecbox">
-                                                        <option value="Lecture">Lecture</option>
-                                                        <option value="Lab">Lab</option>
-                                                        <option value="Lecture & Lab">Lecture & Lab</option>
-                                                    </select>  
-                                                </div>
-                                            </div>
-                                            <div class="col-11 linesecbox">
-                                                <div class="textinsecbox">On every </div>
-                                                <div class="custom-select">
-                                                    <select id="days" name="day" class="inputinsecbox">
-                                                        <option value="Monday">Monday</option>
-                                                        <option value="Tuesday">Tuesday</option>
-                                                        <option value="Wednesday">Wednesday</option>
-                                                        <option value="Thursday">Thursday</option>
-                                                        <option value="Friday">Friday</option>
-                                                        <option value="Saturday">Saturday</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-11 linesecbox" style="overflow: hidden; height: 25px;">
-                                                <div class="textinsecbox">From </div>
-                                                <input class="inputinsecbox timepicker" width="90" style="float: left; height: 24px; padding-right: 0px;">
-                                                <div class="textinsecbox" style="margin-left: 10px; position: relative; top: -24px; left: 145px;">to </div>
-                                                <div style="position: relative; top: -24px; left: 145px;">
-                                                    <input class="inputinsecbox timepicker" width="90" style="float: left; height: 24px;">
-                                                </div>
-                                            </div>
-                                            <div class="col-11 linesecbox">
-                                                <div class="textinsecbox">At </div>
-                                                <input class="inputinsecbox">
-                                            </div>
-                                        </div>
-                                        <div style="background-color: #1A9776; border-radius: 12px; height: 24px; width: 80px; position: relative; top: -57px; left: 232px; text-align: left; color: #ffffff; padding-left: 10px;">Update</div>
                                     </div>
-                                </div>
-                                <div>
-                                    <div style="background-color: #DB7600; height: 30px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; position: relative; top: 5px; left: 5px; width: 100px; color: #ffffff; font-size: 20px; font-weight: 600; padding-left: 15px;">SEC 2</div>
-                                    <div style="background-color: #233975; height: 30px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; position: relative; top: -25px; left: 107px; width: 170px; color: #ffffff; font-size: 15px; font-weight: 400; padding-left: 8px; padding-top: 4px;">Capacity :
-                                        <input style="border-radius: 12px; height: 24px; width: 80px; position: relative; top: -1px; right: -3px; text-align: left; color: #000000; padding-left: 10px; border: none;">
-                                    </div>
-                                    <!-- minus button -->
-                                    <button class="dot" style="height: 30px; width: 30px; border-radius: 50%; background-color: rgba(255, 255, 255, 0.5); position: relative; left: 282px; top: -55px; border: none;">
-                                        <div style="height: 5px; width: 20px; background-color: #585858; border-radius: 3px; position: relative; left: -1px; top: 1px;"></div>
-                                    </button>
-                                    <div class="row" style="position: relative; top: -40px; left: 15px;">
-                                        <div class="col-11 linesecbox">
-                                            <div class="textinsecbox">Class Type: </div>
-                                            <div class="custom-select">
-                                                <select id="classType" name="classType" class="inputinsecbox">
-                                                    <option value="Lecture">Lecture</option>
-                                                    <option value="Lab">Lab</option>
-                                                    <option value="Lecture & Lab">Lecture & Lab</option>
-                                                </select>  
-                                            </div>
-                                        </div>
-                                        <div class="col-11 linesecbox">
-                                            <div class="textinsecbox">On every </div>
-                                            <div class="custom-select">
-                                                <select id="days" name="day" class="inputinsecbox">
-                                                    <option value="Monday">Monday</option>
-                                                    <option value="Tuesday">Tuesday</option>
-                                                    <option value="Wednesday">Wednesday</option>
-                                                    <option value="Thursday">Thursday</option>
-                                                    <option value="Friday">Friday</option>
-                                                    <option value="Saturday">Saturday</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-11 linesecbox" style="overflow: hidden; height: 25px;">
-                                            <div class="textinsecbox">From </div>
-                                            <input class="inputinsecbox timepicker" width="90" style="float: left; height: 24px; padding-right: 0px;">
-                                            <div class="textinsecbox" style="margin-left: 10px; position: relative; top: -24px; left: 145px;">to </div>
-                                            <div style="position: relative; top: -24px; left: 145px;">
-                                                <input class="inputinsecbox timepicker" width="90" style="float: left; height: 24px;">
-                                            </div>
-                                        </div>
-                                        <div class="col-11 linesecbox">
-                                            <div class="textinsecbox">At </div>
-                                            <input class="inputinsecbox">
-                                        </div>
-
-
-
-                                    </div>
-                                    <button style="border: none; background-color: rgba(255, 255, 255, 0); width: 30px; height: 30px; position: relative; left: 8px; top: -37px; overflow: hidden;">
-                                        <img src="img/plus.png" style="width: 20px; height: 20px; position: relative; top: 0px; left: 0px;">
-                                    </button>
-                                    <div style="background-color: #1A9776; border-radius: 12px; height: 24px; width: 80px; position: relative; top: 74px; left: 232px; text-align: left; color: #ffffff; padding-left: 10px;">Update</div>
-                                </div>
-                                <div id="last_obj_section">
-                                    <button class="dot newsecbtn" onclick="create_new_section(0,0,0)" style="height: 50px; width: 50px; border-radius: 50%; position: relative; left: 133.5px; top: 135px; border: none;">
-                                        <img src="img/plus.png" style="width: 30px; height: 30px; position: relative; top: 0px; left: 0px;">
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -477,9 +281,8 @@ include 'nav-bar.php';
                 </div>
             </div>
         </div>
+        <div class="col-12" style="height: 50px;"></div>
     </div>
-    <div class="col-12" style="height: 50px;"></div>
-</div>
 </div>
 </body>
 
@@ -502,7 +305,7 @@ include 'nav-bar.php';
       },
       success: function(resp){
         var data = JSON.parse(resp);
-        console.log(data);
+        // console.log(data);
 
         document.getElementById('courseID').innerHTML = data[0][0]["courseID"];
         document.getElementById('courseName').innerHTML = data[0][0]["courseName"];
@@ -513,9 +316,10 @@ include 'nav-bar.php';
             var openCourseID = 0, section = 0;
             var section_data = data[1];
             var stack = 0;
+            console.log(data[0]);
             for(var i = 0; i < section_data.length; i++) {
-                console.log(section_data[i]["openCourseID"])
-                console.log(section_data[i]["section"])
+                // console.log(section_data[i]["openCourseID"])
+                // console.log(section_data[i]["section"])
                 if (openCourseID == section_data[i]["openCourseID"] && section == section_data[i]["section"]) {
                     stack++;
                 }
@@ -534,33 +338,69 @@ include 'nav-bar.php';
                     section = section_data[i]["section"];
                 }
             }
+            // if (stack == 1) {
+            //     if (section_data[section_data.length-2]["surveySection"] == 1) {
+            //         create_non_survey_section(2,section_data[section_data.length-2],section_data[section_data.length-1]);
+            //     }
+            //     else 
+            //     {
+            //         create_new_section(2,section_data[section_data.length-2],section_data[section_data.length-1]);
+            //         stack = 0;
+            //     }
+            // }
+            // else {
+            //     if (openCourseID != 0 && section != 0) {
+            //         if (section_data[section_data.length-1]["surveySection"] == 1) {
+            //             create_non_survey_section(1,section_data[section_data.length-1]);
+            //         }
+            //         else 
+            //         {
+            //             create_new_section(1,section_data[section_data.length-1],0);
+            //         }
+            //     }
+            // }
+
             if (stack == 1) {
-                console.log("11111");
-                create_new_section(2,section_data[section_data.length-2],section_data[section_data.length-1])
-                stack = 0;
+
+                    create_new_section(2,section_data[section_data.length-2],section_data[section_data.length-1]);
+                    stack = 0;
             }
             else {
-                console.log("22222");
                 if (openCourseID != 0 && section != 0) {
-                    create_new_section(1,section_data[section_data.length-1],0)
+
+                        create_new_section(1,section_data[section_data.length-1],0);
+                    
                 }
             }
+            console.log(section_data)
 
 
         }
     })
 
+    function create_non_survey_section(type,data) {
+        const box = document.createElement('div');
+        if (type == 2)
+            box.innerHTML ='<div style="background-color: #233975; height: 30px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; position: relative; top: 5px; left: 5px; width: 100px; color: #ffffff; font-size: 20px; font-weight: 600; padding-left: 15px;">SEC 1</div><div style="background-color: #233975; height: 30px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; position: relative; top: -25px; left: 107px; width: 170px; color: #ffffff; font-size: 15px; font-weight: 400; padding-left: 8px; padding-top: 4px;">Capacity :<div style="background-color: #233975; border-radius: 12px; height: 24px; width: 80px; position: relative; top: -23px; right: -79px; text-align: left; color: #ffffff; padding-left: 10px; border: 2px solid #ffffff">50</div></div><div class="row" style="position: relative; top: -40px; left: 15px;"><div class="col-12 linesecbox"><div class="textinsecbox">Class Type: </div><div class="displayinsecbox">Lecture</div></div><div class="col-12 linesecbox"><div class="textinsecbox">On every </div><div class="displayinsecbox monday">Monday</div></div><div class="col-12 linesecbox" style="overflow: hidden;"><div class="textinsecbox">From </div><div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">08:30 AM</div><div class="textinsecbox" style="margin-left: 10px;">to </div><div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">12:20 PM</div></div><div class="col-12 linesecbox"><div class="textinsecbox">At </div><div class="displayinsecbox" style="width: 100px;">CPE1115</div></div><div style="height: 3px; width: 287px; margin-left: 15px; margin-top: 10px; background-color: #ffffff; border-radius: 1.5px"></div></div><div class="row" style="position: relative; top: -25px; left: 15px;"><div class="col-12 linesecbox"><div class="textinsecbox">Class Type: </div><div class="displayinsecbox">Lecture</div></div><div class="col-12 linesecbox"><div class="textinsecbox">On every </div><div class="displayinsecbox monday">Monday</div></div><div class="col-12 linesecbox" style="overflow: hidden;"><div class="textinsecbox">From </div><div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">08:30 AM</div><div class="textinsecbox" style="margin-left: 10px;">to </div><div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">12:20 PM</div></div><div class="col-12 linesecbox"><div class="textinsecbox">At </div><div class="displayinsecbox" style="width: 100px;">CPE1115</div></div></div>';
+        else
+            box.innerHTML ='<div style="background-color: #233975; height: 30px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; position: relative; top: 5px; left: 5px; width: 100px; color: #ffffff; font-size: 20px; font-weight: 600; padding-left: 15px;">SEC 1</div><div style="background-color: #233975; height: 30px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; position: relative; top: -25px; left: 107px; width: 170px; color: #ffffff; font-size: 15px; font-weight: 400; padding-left: 8px; padding-top: 4px;">Capacity :<div style="background-color: #233975; border-radius: 12px; height: 24px; width: 80px; position: relative; top: -23px; right: -79px; text-align: left; color: #ffffff; padding-left: 10px; border: 2px solid #ffffff">50</div></div><div class="row" style="position: relative; top: -40px; left: 15px;"><div class="col-12 linesecbox"><div class="textinsecbox">Class Type: </div><div class="displayinsecbox">Lecture</div></div><div class="col-12 linesecbox"><div class="textinsecbox">On every </div><div class="displayinsecbox monday">Monday</div></div><div class="col-12 linesecbox" style="overflow: hidden;"><div class="textinsecbox">From </div><div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">08:30 AM</div><div class="textinsecbox" style="margin-left: 10px;">to </div><div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">12:20 PM</div></div><div class="col-12 linesecbox"><div class="textinsecbox">At </div><div class="displayinsecbox" style="width: 100px;">CPE1115</div></div></div>';
 
+        $("#last_obj_section").before(box);
+    }
 
-    function create_new_section(isQuery,fisrtTime,secondTime){
+    function create_new_section(isQuery,fisrtTime,secondTime,cap){
         // const big_box = document.getElementById('big_box_section'); 
 
         const box = document.createElement('div');
 
         const section_display_box = document.createElement('div');
         section_display_box.setAttribute('style','background-color: #DB7600; height: 30px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; position: relative; top: 5px; left: 5px; width: 100px; color: #ffffff; font-size: 20px; font-weight: 600; padding-left: 15px;');
+        section_display_box.setAttribute('id','this_section');
             // Must edit running sec
-            section_display_box.innerHTML = "SEC "+running_section_number();
+            if (isQuery == 0)
+                section_display_box.innerHTML = "SEC "+running_section_number();
+            else
+                section_display_box.innerHTML = "SEC "+fisrtTime["section"];
 
             box.appendChild(section_display_box);
 
@@ -571,8 +411,11 @@ include 'nav-bar.php';
             capacity_box.innerHTML = "Capacity :";
 
 
+
             const capacity_input = document.createElement('input');
-            capacity_input.setAttribute('style','border-radius: 12px; height: 24px; width: 80px; position: relative; top: -1px; right: -7px; text-align: left; color: #000000; padding-left: 10px; border: none;');
+            capacity_input.setAttribute('style','border-radius: 12px; height: 24px; width: 80px; position: relative; top: -1px; right: -3px; text-align: left; color: #000000; padding-left: 10px; border: none;');
+            if (isQuery == 1)
+                capacity_input.setAttribute('value',fisrtTime["capacity"]);
             capacity_box.appendChild(capacity_input);
 
 
@@ -583,7 +426,6 @@ include 'nav-bar.php';
             outer_delete_sec.setAttribute('style','height: 30px; width: 30px; border-radius: 50%; position: relative; left: 282px; top: -55px; border: none;');
             
             outer_delete_sec.onclick = function(e) {
-                // Must edit
                 swal({
                     title: "Delete this section?",
                     text: "This section will be permanently deleted.", 
@@ -594,7 +436,7 @@ include 'nav-bar.php';
                 .then((willDelete) => {
                     if (willDelete) {
                         $.ajax({
-                            url : "./ajax/db_lecturerTeach.php",
+                            url : "./ajax/db_deleteSection.php",
                             type: "post",
                             data :{
                                 openCourseID : '<?php echo $_GET["openCourseID"];?>',
@@ -622,13 +464,11 @@ include 'nav-bar.php';
 
             var data_input;
             if(isQuery == 1) {
-                console.log("here1");
                 data_input = create_new_time_obj(1,fisrtTime,'Upper');
                 box.appendChild(data_input);
                 box.appendChild(create_add_time_button(box));
             }
             else if (isQuery == 2){
-                console.log("here2");
                 data_input = create_new_time_obj(2,fisrtTime,'Upper');
                 box.appendChild(data_input);
                 box.appendChild(create_del_time_button(box));
@@ -641,7 +481,6 @@ include 'nav-bar.php';
                 box.appendChild(create_add_time_button(box));
             }
             
-     
             box.appendChild(create_update_button(box,isQuery));
 
             $("#last_obj_section").before(box);
@@ -686,17 +525,75 @@ include 'nav-bar.php';
         update_button.onclick = function(e) {
             // console.log(box.getElementsByTagName('input'))
             var input_data = box.getElementsByTagName('input'); 
-            for(const i in input_data) {
+            var input_field = [];
+            var select_field = [];
+            var error_message = "";
+            // console.log(input_data[0])
+            for(var i = 0; i < input_data.length ; i++) {
+                // console.log(input_data[i].value.length == 0)
+                if( input_data[i].value.length == 0) {
+                    // input_data[i].style.borderColor ="red";
+                    // input_data[i].style.borderWidth ="10px";
+                    error_message = 'Please input all data in field';
+                    swal({
+                        title: "Some field is/are missing",
+                        text: error_message, 
+                        icon: "warning",
+                        dangerMode: true,
+                    })
+                    return -1;
 
+                }
+                else if (i == 0 && !Number.isInteger(Number(input_data[i].value))) {
+                    swal({
+                        title: "Capacity must be integer",
+                        // text: "pl", 
+                        icon: "warning",
+                        dangerMode: true,
+                    })
+                    return -1;
+                }
+                else if((i == 1 || i == 2 || i == 4 || i == 5) && !isValidTime(input_data[i].value)) {
+                    swal({
+                        title: "Time Invalid",
+                        text: "please enter time in formet hh:mm:ss or hh:mm", 
+                        icon: "warning",
+                        dangerMode: true,
+                    })
+                    return -1;
+                }
+                else
+                {
+                    input_field.push(input_data[i].value);
+                }
             }
 
             var input_data = box.getElementsByTagName('select'); 
-            for (const i in input_data) {
-                console.log(input_data[i].value)
+            for (var i = 0; i < input_data.length ; i++) {
+                select_field.push(input_data[i].value);
             }
-            // console.log(box.getElementsByTagName('select'))
-            
-            // window.location = './courseInfo.php';
+
+            console.log(select_field)
+            $.ajax({
+                url : "./ajax/db_editCourseSection.php",
+                type: "post",
+                data :{
+                    openCourseID : '<?php echo $_GET["openCourseID"];?>',
+                    section : box.getElementsByTagName('div')[0].innerHTML.split(' ')[1],
+                    lecturerID : '<?php echo $_SESSION["userID"];?>',
+                    'input_field[]' : input_field,
+                    'select_field[]' : select_field
+                },
+                success: function(resp){
+                    swal({
+                        title: "Edit Success",
+                        text: resp, 
+                        icon: "success",
+                        dangerMode: false,
+                    })
+                }
+            });
+
         }
         return update_button;
     }
@@ -712,6 +609,7 @@ include 'nav-bar.php';
             box.children[3].children[4].remove(); 
             box.children[4].setAttribute('style','background-color: #1A9776; border-radius: 12px; height: 24px; width: 80px; position: relative; top: 56px; left: 233px; text-align: left; color: #ffffff; padding-left: 10px;');
             box.children[4].before(create_add_time_button(box))
+
         }
         return del_button;
     }
@@ -797,7 +695,7 @@ include 'nav-bar.php';
                 box_select_class_day.appendChild(input_class_day);
 
 
-            console.log(box_select_class_day)
+            // console.log(box_select_class_day)
             check_drop_down(box_select_class_day);
             outer_class_day.appendChild(box_select_class_day);
 
@@ -954,25 +852,59 @@ include 'nav-bar.php';
     function closeAllSelect(elmnt) {
       /*a function that will close all select boxes in the document,
       except the current select box:*/
-      var x, y, i, xl, yl, arrNo = [];
-      x = document.getElementsByClassName("select-items");
-      y = document.getElementsByClassName("select-selected");
-      xl = x.length;
-      yl = y.length;
-      for (i = 0; i < yl; i++) {
-        if (elmnt == y[i]) {
-            arrNo.push(i)
-        } 
-        else {
-            y[i].classList.remove("select-arrow-active");
+        var x, y, i, xl, yl, arrNo = [];
+        x = document.getElementsByClassName("select-items");
+        y = document.getElementsByClassName("select-selected");
+        xl = x.length;
+        yl = y.length;
+        for (i = 0; i < yl; i++) {
+            if (elmnt == y[i]) {
+                arrNo.push(i)
+            } 
+            else {
+                y[i].classList.remove("select-arrow-active");
+            }
+        }
+        for (i = 0; i < xl; i++) {
+            if (arrNo.indexOf(i)) {
+                x[i].classList.add("select-hide");
+            }
         }
     }
-    for (i = 0; i < xl; i++) {
-        if (arrNo.indexOf(i)) {
-            x[i].classList.add("select-hide");
-        }
+
+    function isValidTime(value) {
+       var colonCount = 0;
+       var hasMeridian = false;
+       for (var i=0; i<value.length; i++) {
+          var ch = value.substring(i, i+1);
+          if ( (ch < '0') || (ch > '9') ) {
+             if ( (ch != ':') && (ch != ' ') && (ch != 'a') && (ch != 'A') && (ch != 'p') && (ch != 'P') && (ch != 'm') && (ch != 'M')) {
+                return false;
+             }
+          }
+          if (ch == ':') { colonCount++; }
+          if ( (ch == 'p') || (ch == 'P') || (ch == 'a') || (ch == 'A') ) { hasMeridian = true; }
+       }
+       if ( (colonCount < 1) || (colonCount > 2) ) { return false; }
+       var hh = value.substring(0, value.indexOf(":"));
+       if ( (parseFloat(hh) < 0) || (parseFloat(hh) > 23) ) { return false; }
+       if (hasMeridian) {
+          if ( (parseFloat(hh) < 1) || (parseFloat(hh) > 12) ) { return false; }
+       }
+       if (colonCount == 2) {
+          var mm = value.substring(value.indexOf(":")+1, value.lastIndexOf(":"));
+       } else {
+          var mm = value.substring(value.indexOf(":")+1, value.length);
+       }
+       if ( (parseFloat(mm) < 0) || (parseFloat(mm) > 59) ) { return false; }
+       if (colonCount == 2) {
+          var ss = value.substring(value.lastIndexOf(":")+1, value.length);
+       } else {
+          var ss = "00";
+       }
+       if ( (parseFloat(ss) < 0) || (parseFloat(ss) > 59) ) { return false; }
+       return true;
     }
-}
     /*if the user clicks anywhere outside the select box,
     then close all select boxes:*/
     document.addEventListener("click", closeAllSelect);
