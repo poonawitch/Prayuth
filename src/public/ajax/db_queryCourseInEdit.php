@@ -17,7 +17,7 @@
 
 
 
-      $stmt = $db->prepare('SELECT * FROM sectionTime WHERE openCourseID = :openCourseID');
+      $stmt = $db->prepare('SELECT st.openCourseID As openCourseID, st.section As section, st.room As room, st.classType As classType, st.classDay AS classDay, st.classStartTime AS classStartTime, st.classEndTime AS classEndTime, opcs.capacity AS capacity, opcs.surveySection AS surveySection FROM sectionTime st, openCourseSection opcs WHERE st.openCourseID = :openCourseID AND st.openCourseID = opcs.openCourseID AND st.section = opcs.section;');
       $stmt->bindParam("openCourseID", $_POST["openCourseID"],PDO::PARAM_STR);
 
 
