@@ -252,7 +252,7 @@
                 view_student_btn.innerHTML = '<h2 style="position: relative; top: 5px;">View Interested Students</h2>';
                 view_student_btn.onclick = function(e) {
                   // Link for view student
-                  window.location = './Interestedst.php?openCourseID='+data[i]['openCourseID'];
+                  window.location = './interestedst.php?openCourseID='+data[i]['openCourseID'];
                 }
 
                 left_part.appendChild(view_student_btn);

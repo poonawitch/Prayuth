@@ -270,56 +270,6 @@ include 'nav-bar.php';
                                     <div id="big_box_section" class="grid-container" style="width: 100%">
 
 
-                                        <div>
-                                            <div style="background-color: #233975; height: 30px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; position: relative; top: 5px; left: 5px; width: 100px; color: #ffffff; font-size: 20px; font-weight: 600; padding-left: 15px;">SEC 1</div>
-                                            <div style="background-color: #233975; height: 30px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; position: relative; top: -25px; left: 107px; width: 170px; color: #ffffff; font-size: 15px; font-weight: 400; padding-left: 8px; padding-top: 4px;">Capacity :
-                                                <div style="background-color: #233975; border-radius: 12px; height: 24px; width: 80px; position: relative; top: -23px; right: -79px; text-align: left; color: #ffffff; padding-left: 10px; border: 2px solid #ffffff">50</div>
-                                            </div>
-                                            <!-- minus button -->
-                                            <div class="row" style="position: relative; top: -10px; left: 15px;">
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">Class Type: </div>
-                                                    <div class="displayinsecbox">Lecture</div>
-                                                </div>
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">On every </div>
-                                                    <div class="displayinsecbox monday">Monday</div>
-                                                </div>
-                                                <div class="col-11 linesecbox" style="overflow: hidden;">
-                                                    <div class="textinsecbox">From </div>
-                                                    <div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">08:30 AM</div>
-                                                    <div class="textinsecbox" style="margin-left: 10px;">to </div>
-                                                    <div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">12:20 PM</div>
-                                                </div>
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">At </div>
-                                                    <div class="displayinsecbox" style="width: 100px;">CPE1115</div>
-                                                </div>
-                                                <div style="height: 3px; width: 287px; margin-left: 15px; margin-top: 10px; background-color: #ffffff; border-radius: 1.5px"></div>
-                                            </div>
-                                            <div class="row" style="position: relative; top: 10px; left: 15px;">
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">Class Type: </div>
-                                                    <div class="displayinsecbox">Lecture</div>
-                                                </div>
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">On every </div>
-                                                    <div class="displayinsecbox monday">Monday</div>
-                                                </div>
-                                                <div class="col-11 linesecbox" style="overflow: hidden;">
-                                                    <div class="textinsecbox">From </div>
-                                                    <div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">08:30 AM</div>
-                                                    <div class="textinsecbox" style="margin-left: 10px;">to </div>
-                                                    <div class="displayinsecbox" style="width: 90px; float: left; height: 24px;">12:20 PM</div>
-                                                </div>
-                                                <div class="col-11 linesecbox">
-                                                    <div class="textinsecbox">At </div>
-                                                    <div class="displayinsecbox" style="width: 100px;">CPE1115</div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
 
 
                                     <div id="last_obj_section">
