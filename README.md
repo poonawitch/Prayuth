@@ -1,7 +1,7 @@
 # Prayuth
 Pre-Register at your University Project
 
-https://kmutt.prayuth.space
+https://preregis.kmutt.me
 
 
 # How to Deploy
