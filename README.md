@@ -43,10 +43,6 @@ docker-compose up -d
 
 http://localhost:8888 
 
-# Source Code
-
-อยู่ใน folder src/public
-
 
 # Username
 
@@ -61,6 +57,10 @@ Password : test
 Username : 2221003
 
 Password : test
+
+# Remarks
+
+Source code is in src folder
 
 # Group Members
 
