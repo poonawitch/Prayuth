@@ -18,7 +18,8 @@ https://preregis.kmutt.me
 
 ```bash
 apt update
-apt install -y docker.io && docker-compose
+apt install -y docker.io 
+apt install -y docker-compose
 ```
 
 3. Git Clone
