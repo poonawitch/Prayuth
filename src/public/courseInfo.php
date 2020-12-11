@@ -111,7 +111,7 @@
         <button class="whtebtn" id="download" style="position: relative; left: -558px; top: -60px;">
           <p style="margin-top: 13px;">Download Syllabus</p>
         </button>
-        <button class="whtebtn" style="position: relative; left: 320px; top: -460px;">
+        <button class="whtebtn" onclick="to_chat()" style="position: relative; left: 320px; top: -460px;">
           <p style="margin-top: 13px;">Go to Class Forum</p>
         </button>
       </div>
@@ -123,6 +123,10 @@
 
 
   <script>
+    function to_chat () {
+      console.log('asdasd')
+      window.location = 'chat.php';
+    }
 
     $('#download').click(function(e) {
       console.log("hit");
