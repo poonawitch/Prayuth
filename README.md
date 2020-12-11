@@ -41,7 +41,7 @@ docker-compose up -d
 
 6.Open your browser
 
-http://localhost:8888 
+http://yourwebsite:8888 
 
 
 # Username
